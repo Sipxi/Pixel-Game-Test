@@ -499,6 +499,9 @@ animations = [{
 radius = 5.0
 height = 14.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xpcdj"]
+size = Vector2(12, 11.15625)
+
 [node name="Player" type="CharacterBody2D" unique_id=739492698]
 script = ExtResource("1_xpcdj")
 
@@ -512,3 +515,10 @@ position = Vector2(-1, 4)
 shape = SubResource("CapsuleShape2D_0liok")
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="." unique_id=1426846986]
+
+[node name="InteractionDetector" type="Area2D" parent="." unique_id=133030638]
+
+[node name="Collision" type="CollisionShape2D" parent="InteractionDetector" unique_id=1823207652]
+position = Vector2(0, 10)
+shape = SubResource("RectangleShape2D_xpcdj")
+debug_color = Color(0, 0.54045314, 0.9583195, 0.41960785)

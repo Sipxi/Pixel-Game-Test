@@ -13,7 +13,7 @@ config_version=5
 config/name="Emilies"
 run/main_scene="uid://dvue4bgc1luj8"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [display]
 
@@ -26,6 +26,10 @@ window/stretch/mode="viewport"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/github_copilot/plugin.cfg")
+
+[global_group]
+
+interactable="Interactable objects"
 
 [input]
 
