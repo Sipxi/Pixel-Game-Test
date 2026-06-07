@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c4tj2ovv5jt27"]
+
+[ext_resource type="PackedScene" uid="uid://13s5spsk34qu" path="res://addons/dialogue_manager/example_balloon/small_example_balloon.tscn" id="1_2e60e"]
+
+[node name="ExampleBalloon" unique_id=90284222 instance=ExtResource("1_2e60e")]
+next_action = &"interact"
+skip_action = &"interact"
+
+[node name="AnimationPlayer" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/HBoxContainer/Control" index="1"]
+autoplay = &"progress"

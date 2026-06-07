@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://labw5t8rec1n" path="res://Scenes/Levels/level_template.tscn" id="1_7t06c"]
 [ext_resource type="PackedScene" uid="uid://dvue4bgc1luj8" path="res://Scenes/Player/player.tscn" id="2_b07c4"]
 [ext_resource type="PackedScene" uid="uid://dpkpbsby0lc4o" path="res://Scenes/Entities/interactable_object.tscn" id="4_npfmg"]
+[ext_resource type="Resource" uid="uid://dma0jgm2bort3" path="res://Dialogs/Test/test.dialogue" id="5_npfmg"]
 
 [node name="LevelTemplate" unique_id=1909565686 instance=ExtResource("1_7t06c")]
 
@@ -17,7 +18,7 @@ tile_map_data = PackedByteArray("AAAGAAoAAQAGAAcAAAAGAAkAAQAGAAYAAAAFAAoAAQAEAAc
 enabled = true
 zoom = Vector2(2, 2)
 position_smoothing_enabled = false
-position_smoothing_speed = 6.0
+position_smoothing_speed = 100.0
 
 [node name="Player" parent="Entities" parent_id_path=PackedInt32Array(780006038) index="0" unique_id=739492698 instance=ExtResource("2_b07c4")]
 position = Vector2(160, 64)
@@ -25,3 +26,4 @@ speed = 200.0
 
 [node name="InteractableObject" parent="Entities" parent_id_path=PackedInt32Array(780006038) index="1" unique_id=989699969 instance=ExtResource("4_npfmg")]
 position = Vector2(208, 80)
+dialogue_file = ExtResource("5_npfmg")

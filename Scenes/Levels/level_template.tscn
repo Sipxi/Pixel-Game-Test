@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://labw5t8rec1n"]
 
-[ext_resource type="Script" uid="uid://c8n6o2b3asaac" path="res://Scripts/Level/Template/level_template.gd" id="1_nqhii"]
+[ext_resource type="Script" uid="uid://c8n6o2b3asaac" path="res://Scenes/Levels/level_template.gd" id="1_nqhii"]
 [ext_resource type="Texture2D" uid="uid://dfo5x6i7bsac3" path="res://Assets/textures/tilesets/TX Tileset Grass.png" id="1_wks4m"]
 [ext_resource type="Texture2D" uid="uid://dp1earrtu5n74" path="res://Assets/textures/tilesets/TX Tileset Wall.png" id="2_nqhii"]
 

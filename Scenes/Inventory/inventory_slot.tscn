@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bbowm2e11x2nd"]
+
+[ext_resource type="Script" uid="uid://dd6flalg36ysa" path="res://Scenes/Inventory/inventory_slot.gd" id="1_3qr85"]
+
+[node name="InventorySlot" type="PanelContainer" unique_id=2101011200]
+custom_minimum_size = Vector2(32, 32)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_3qr85")
